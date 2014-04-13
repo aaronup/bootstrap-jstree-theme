@@ -1,33 +1,29 @@
 {
-  "name": "bootstrap-jstree-theme",
-  "version": "0.0.0",
-  "description": "Bootstrap 3.x jsTree Theme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme.git"
-  },
-  "keywords": [
-    "ui",
-    "jstree",
-    "tree",
-    "themes"
-  ],
-  "author": "Aaron Upshaw",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme/issues"
-  },
-  "homepage": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme",
-  "devDependencies": {
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-compass": "^0.7.2",
-    "grunt-newer": "^0.7.0",
-    "grunt": "^0.4.4",
-    "grunt-contrib-watch": "^0.6.1"
-  }
+    "name": "bootstrap-jstree-theme",
+    "version": "0.2.0",
+    "description": "Bootstrap 3.x jsTree Theme",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme.git"
+    },
+    "keywords": [
+        "ui",
+        "jstree",
+        "tree",
+        "themes"
+    ],
+    "author": "Aaron Upshaw",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme/issues"
+    },
+    "homepage": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme",
+    "devDependencies": {
+        "grunt-contrib-copy": "^0.5.0",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-contrib-compass": "^0.7.2",
+        "grunt-newer": "^0.7.0",
+        "grunt": "^0.4.4",
+        "grunt-contrib-watch": "^0.6.1"
+    }
 }
