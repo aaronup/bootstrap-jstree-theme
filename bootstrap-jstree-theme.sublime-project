@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns": [".sass-cache", "node_modules", "bower_components", "build"],
+            "file_exclude_patterns": [".editorconfig", "main-built*","*.eot", "*.woff", "*.ttf", "*.svg", "*.swf", "*.sublime-*", ".gitignore"]
+        }
+    ],
+    "settings": {
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true
+    }
+}

@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+    $line-height: 40px;
+
+    .jstree-bootstrap-responsive .jstree-icon {
+        background-image: image-url("40px.png");
+    }
+    .jstree-bootstrap-responsive .jstree-node,
+    .jstree-bootstrap-responsive .jstree-leaf > .jstree-ocl {
+        background: transparent;
+    }
+    .jstree-bootstrap-responsive .jstree-node {
+        min-height: $line-height;
+        line-height: $line-height;
+        margin-left: 40px;
+        min-width: 40px;
+        white-space: nowrap;
+    }
+    .jstree-bootstrap-responsive .jstree-anchor {
+        line-height: $line-height;
+        height: $line-height;
+    }
+    .jstree-bootstrap-responsive .jstree-icon,
+    .jstree-bootstrap-responsive .jstree-icon:empty {
+        width: 40px;
+        height: $line-height;
+        line-height: $line-height;
+    }
+    .jstree-bootstrap-responsive > .jstree-container-ul > .jstree-node {
+        margin-left: 0;
+    }
+    .jstree-bootstrap-responsive.jstree-rtl .jstree-node {
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .jstree-bootstrap-responsive.jstree-rtl .jstree-container-ul > .jstree-node {
+        margin-right: 0;
+    }
+    .jstree-bootstrap-responsive .jstree-ocl,
+    .jstree-bootstrap-responsive .jstree-themeicon,
+    .jstree-bootstrap-responsive .jstree-checkbox {
+        background-size: 120px 200px;
+    }
+    .jstree-bootstrap-responsive .jstree-leaf > .jstree-ocl {
+        background: transparent;
+    }
+    .jstree-bootstrap-responsive .jstree-open > .jstree-ocl {
+        background-position: 0 0px !important;
+    }
+    .jstree-bootstrap-responsive .jstree-closed > .jstree-ocl {
+        background-position: 0 -40px !important;
+    }
+    .jstree-bootstrap-responsive.jstree-rtl .jstree-closed > .jstree-ocl {
+        background-position: -40px 0px !important;
+    }
+    .jstree-bootstrap-responsive .jstree-anchor > .jstree-themeicon {
+        background-position: -40px -40px;
+    }
+    .jstree-bootstrap-responsive .jstree-checkbox,
+    .jstree-bootstrap-responsive .jstree-checkbox:hover {
+        background-position: -40px -80px;
+    }
+    .jstree-bootstrap-responsive .jstree-clicked > .jstree-checkbox,
+    .jstree-bootstrap-responsive .jstree-clicked > .jstree-checkbox:hover {
+        background-position: 0 -80px;
+    }
+    .jstree-bootstrap-responsive .jstree-anchor > .jstree-undetermined,
+    .jstree-bootstrap-responsive .jstree-anchor > .jstree-undetermined:hover {
+        background-position: 0 -120px;
+    }
+    .jstree-bootstrap-responsive .jstree-anchor {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .jstree-bootstrap-responsive > .jstree-striped {
+        background: transparent;
+    }
+    .jstree-bootstrap-responsive .jstree-wholerow {
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-bottom: 1px solid rgba(64, 64, 64, 0.2);
+        background: #ebebeb;
+        height: $line-height;
+
+        &.jstree-wholerow-clicked {
+            margin-top: 0;
+            height: $line-height;
+        }
+    }
+    .jstree-bootstrap-responsive .jstree-wholerow-hovered {
+        background: #e7f4f9;
+    }
+    .jstree-bootstrap-responsive .jstree-wholerow-clicked {
+        background: #428bca;
+    }
+    .jstree-bootstrap-responsive .jstree-children .jstree-open + .jstree-open {
+        @include box-shadow(none);
+    }
+    .jstree-bootstrap-responsive .jstree-node,
+    .jstree-bootstrap-responsive .jstree-icon,
+    .jstree-bootstrap-responsive .jstree-node > .jstree-ocl,
+    .jstree-bootstrap-responsive .jstree-themeicon,
+    .jstree-bootstrap-responsive .jstree-checkbox {
+        background-image: image-url("40px.png");
+        background-size: 120px 200px;
+    }
+    .jstree-bootstrap-responsive .jstree-node {
+        background-position: -80px 0;
+        background-repeat: repeat-y;
+    }
+    .jstree-bootstrap-responsive .jstree-last {
+        background: transparent;
+    }
+    .jstree-bootstrap-responsive .jstree-leaf > .jstree-ocl {
+        background-position: -40px -120px;
+    }
+    .jstree-bootstrap-responsive .jstree-last > .jstree-ocl {
+        background-position: -40px -160px;
+    }
+    .jstree-bootstrap-responsive .jstree-themeicon-custom {
+        background-color: transparent;
+        background-image: none;
+    }
+}

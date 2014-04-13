@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 3.x jsTree Theme - Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/build/themes/bootstrap/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap 3.x jsTree Theme - Test Page</h1>
+        <p>This test is a visual test of the theme</p>
+
+        <div class="jstree-target">
+            <ul>
+                <li><a href="target_1">Root 1</a>
+                    <ul>
+                        <li><a href="target_01">Child 01</a></li>
+                        <li><a href="target_02">Child 02</a></li>
+                        <li><a href="target_03">Child 03</a></li>
+                    </ul>
+                </li>
+                <li><a href="target_2">Root 2</a>
+                    <ul>
+                        <li><a href="target_01">Child 01</a></li>
+                        <li><a href="target_02">Child 02</a></li>
+                    </ul>
+                </li>
+                <li><a href="target_3">Root 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+    <script src="/bower_components/jstree/dist/jstree.js"></script>
+    <script>
+    $(function() {
+        $('.jstree-target').jstree({
+            plugins: ['themes', 'dnd'], //, 'wholerow', 'contextmenu'],
+            core: {
+                check_callback: true,
+                animation: false,
+                themes: {
+                    name: 'bootstrap',
+                    // stripes: true,
+                    // dots: false
+                }
+            }
+        }).jstree('open_all');
+    });
+    </script>
+</body>
+</html>
