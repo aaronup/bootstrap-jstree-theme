@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aaronup/jstree-bootstrap-theme.git"
+    "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme.git"
   },
   "keywords": [
     "ui",
@@ -19,9 +19,9 @@
   "author": "Aaron Upshaw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aaronup/jstree-bootstrap-theme/issues"
+    "url": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme/issues"
   },
-  "homepage": "https://github.com/aaronup/jstree-bootstrap-theme",
+  "homepage": "https://bitbucket.org/aupshaw/bootstrap-jstree-theme",
   "devDependencies": {
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-clean": "^0.5.0",
