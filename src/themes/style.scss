@@ -289,6 +289,9 @@ $line-height: 32px;
     color: white;
     @include border-radius(3px);
     @include box-shadow(inset 0 0 1px #999);
+    input {
+        color: black;
+    }
 }
 .jstree-bootstrap .jstree-no-icons .jstree-anchor > .jstree-themeicon {
     display: none;
@@ -379,6 +382,9 @@ $line-height: 32px;
 }
 .jstree-bootstrap > .jstree-wholerow-ul .jstree-clicked {
     color: white;
+    input {
+        color: black;
+    }
 }
 .jstree-bootstrap .jstree-wholerow {
     @include box-sizing(border-box);

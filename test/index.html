@@ -12,7 +12,26 @@
         <h1>Bootstrap 3.x jsTree Theme - Test Page</h1>
         <p>This test is a visual test of the theme</p>
 
-        <div class="jstree-target">
+        <div class="jstree-simple">
+            <ul>
+                <li data-jstree='{"icon":"glyphicon glyphicon-folder-open"}'><a href="target_1">Root 1</a>
+                    <ul>
+                        <li data-jstree='{"icon":"glyphicon glyphicon-file"}'><a href="target_01">Child 01</a></li>
+                        <li><a href="target_02">Child 02</a></li>
+                        <li><a href="target_03">Child 03</a></li>
+                    </ul>
+                </li>
+                <li><a href="target_2">Root 2</a>
+                    <ul>
+                        <li><a href="target_01">Child 01</a></li>
+                        <li><a href="target_02">Child 02</a></li>
+                    </ul>
+                </li>
+                <li><a href="target_3">Root 3</a></li>
+            </ul>
+        </div>
+        <h2>Striped</h2>
+        <div class="jstree-striped">
             <ul>
                 <li><a href="target_1">Root 1</a>
                     <ul>
@@ -36,15 +55,25 @@
     <script src="/bower_components/jstree/dist/jstree.js"></script>
     <script>
     $(function() {
-        $('.jstree-target').jstree({
+        $('.jstree-simple').jstree({
             plugins: ['themes', 'dnd'], //, 'wholerow', 'contextmenu'],
             core: {
                 check_callback: true,
                 animation: false,
                 themes: {
                     name: 'bootstrap',
-                    // stripes: true,
-                    // dots: false
+                }
+            }
+        }).jstree('open_all');
+        $('.jstree-striped').jstree({
+            plugins: ['themes', 'dnd', 'wholerow'],
+            core: {
+                check_callback: true,
+                animation: false,
+                themes: {
+                    name: 'bootstrap',
+                    stripes: true,
+                    dots: false
                 }
             }
         }).jstree('open_all');
