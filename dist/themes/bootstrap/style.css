@@ -363,6 +363,9 @@
   -moz-box-shadow: inset 0 0 1px #999999;
   box-shadow: inset 0 0 1px #999999;
 }
+.jstree-bootstrap .jstree-clicked input {
+  color: black;
+}
 
 .jstree-bootstrap .jstree-no-icons .jstree-anchor > .jstree-themeicon {
   display: none;
@@ -425,7 +428,7 @@
 
 #jstree-dnd.jstree-bootstrap .jstree-ok,
 #jstree-dnd.jstree-bootstrap .jstree-er {
-  background-image: url('32px.png?1397386102');
+  background-image: url('32px.png?1405976842');
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -464,6 +467,9 @@
 
 .jstree-bootstrap > .jstree-wholerow-ul .jstree-clicked {
   color: white;
+}
+.jstree-bootstrap > .jstree-wholerow-ul .jstree-clicked input {
+  color: black;
 }
 
 .jstree-bootstrap .jstree-wholerow {
@@ -523,7 +529,7 @@
 
 .jstree-bootstrap .jstree-node,
 .jstree-bootstrap .jstree-icon {
-  background-image: url('32px.png?1397386102');
+  background-image: url('32px.png?1405976842');
 }
 
 .jstree-bootstrap .jstree-node {
@@ -641,7 +647,7 @@
 }
 
 .jstree-bootstrap > .jstree-container-ul .jstree-loading > .jstree-ocl {
-  background: url('throbber.gif?1397386102') center center no-repeat;
+  background: url('throbber.gif?1405976842') center center no-repeat;
 }
 
 .jstree-bootstrap.jstree-rtl .jstree-node {
@@ -686,7 +692,7 @@
 
 .jstree-bootstrap-small .jstree-node,
 .jstree-bootstrap-small .jstree-icon {
-  background-image: url('32px.png?1397386102');
+  background-image: url('32px.png?1405976842');
 }
 
 .jstree-bootstrap-small .jstree-node {
@@ -808,7 +814,7 @@
 }
 
 .jstree-bootstrap-small > .jstree-container-ul .jstree-loading > .jstree-ocl {
-  background: url('throbber.gif?1397386102') center center no-repeat;
+  background: url('throbber.gif?1405976842') center center no-repeat;
 }
 
 .jstree-bootstrap-small.jstree-rtl .jstree-node {
@@ -853,7 +859,7 @@
 
 .jstree-bootstrap-large .jstree-node,
 .jstree-bootstrap-large .jstree-icon {
-  background-image: url('32px.png?1397386102');
+  background-image: url('32px.png?1405976842');
 }
 
 .jstree-bootstrap-large .jstree-node {
@@ -975,7 +981,7 @@
 }
 
 .jstree-bootstrap-large > .jstree-container-ul .jstree-loading > .jstree-ocl {
-  background: url('throbber.gif?1397386102') center center no-repeat;
+  background: url('throbber.gif?1405976842') center center no-repeat;
 }
 
 .jstree-bootstrap-large.jstree-rtl .jstree-node {
@@ -988,7 +994,7 @@
 
 @media (max-width: 768px) {
   .jstree-bootstrap-responsive .jstree-icon {
-    background-image: url('40px.png?1397386102');
+    background-image: url('40px.png?1405976842');
   }
 
   .jstree-bootstrap-responsive .jstree-node,
@@ -1109,7 +1115,7 @@
   .jstree-bootstrap-responsive .jstree-node > .jstree-ocl,
   .jstree-bootstrap-responsive .jstree-themeicon,
   .jstree-bootstrap-responsive .jstree-checkbox {
-    background-image: url('40px.png?1397386102');
+    background-image: url('40px.png?1405976842');
     background-size: 120px 200px;
   }
 
